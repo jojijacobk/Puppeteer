@@ -3,7 +3,7 @@
 - Most things that you can do manually in browser can be done via puppeteer as well
 - **puppeteer** version is tightly coupled with Chromium version. So, when you install puppeteer, the tied together version of chromium also gets installed. But, if you want to control an already installed Chrome, that is possible with **puppeteer-core**
 
-# Sample codes
+### Puppeteer sample codes
 - Open browser and go to page google.com, and search for flowers.
 
 ```javascript
