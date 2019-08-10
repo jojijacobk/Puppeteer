@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer');
-const device = require('puppeteer/DeviceDescriptors')['iPhone X'];
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -7,6 +6,13 @@ const device = require('puppeteer/DeviceDescriptors')['iPhone X'];
     executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
   });
   const [page] = await browser.pages();
-  await page.emulate(device);
-  await page.goto('https://www.google.com');
+  // page.setViewport({
+  //   width: 1440,
+  //   height: 900
+  // });
+  page.setViewport({
+    width: 1920,
+    height: 1080
+  });
+  page.goto('https://www.instagram.com');
 })();

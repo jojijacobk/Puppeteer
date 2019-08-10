@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-demo",
+  "version": "1.0.0",
+  "description": "This is a collection of puppeteer code sample demonstrating some use cases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojijacobk/_puppeteer.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "browser-automation",
+    "chrome-automation"
+  ],
+  "author": "joji.jacob.k@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojijacobk/_puppeteer/issues"
+  },
+  "homepage": "https://github.com/jojijacobk/_puppeteer#readme",
+  "dependencies": {
+    "puppeteer": "^1.19.0",
+    "request": "^2.88.0"
+  }
+}
