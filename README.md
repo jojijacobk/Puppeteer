@@ -4,7 +4,7 @@
 - Most things that you can do manually in browser can be done via puppeteer as well
 - **puppeteer** version is tightly coupled with Chromium version. So, when you install puppeteer, the tied together version of chromium also gets installed. But, if you want to control an already installed Chrome, that is possible with **puppeteer-core**
 
-### Puppeteer demonstration codes
+### My experiments with Puppeteer
 Run `npm install` before you try demo codes below
 - [Open a webpage in browser](open-webpage.js)
 - [Open a webpage incognito mode](incognito-browser.js)
