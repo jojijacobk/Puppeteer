@@ -15,7 +15,7 @@ Run `npm install` before you try demo codes below
 - [Take a screenshot](screenshot.js)
 - [Control screen dimension](viewport.js)
 - [Automatically browse Instagram and download pictures](instagram/instagram-browse.js)
-Note: For instagram crawl and download images script, to make the script simple, `user-data-dir` flag is set to a browser session which has logged in instagram user session.
+
 ### References
 - https://flaviocopes.com/puppeteer/
 - https://nitayneeman.com/posts/getting-to-know-puppeteer-using-practical-examples/
