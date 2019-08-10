@@ -1,3 +1,4 @@
+# Puppeteer
 - Puppeteer is a Node library to control Chrome or Chromium over DevTools Protocol
 - It can run headless or non-headless
 - Most things that you can do manually in browser can be done via puppeteer as well
