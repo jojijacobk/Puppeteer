@@ -14,7 +14,7 @@ Run `npm install` before you try demo codes below
 - [Pass DOM elements to backend](return-DOM-element.js)
 - [Take a screenshot](screenshot.js)
 - [Control screen dimension](viewport.js)
-- [Automatically browse Instagram and download pictures](instagram/crawl-instagram.js)
+- [Automatically browse Instagram and download pictures](crawl-instagram.js)
 
 ### References
 - https://flaviocopes.com/puppeteer/
